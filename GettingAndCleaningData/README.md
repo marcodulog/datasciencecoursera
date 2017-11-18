@@ -8,6 +8,10 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 - Ensure that you are connected to the internet
 - Make sure that you don't have the directory UCI HAR Dataset in your working directory
 - if you don't have libraries for "data.frame" and "sqldf" please get them now
+- Open R and source the run_analysis.R file which should:
+-- download the zip file above
+-- merge the associated datasets
+-- create the tiny dataset
 ### Assignment Instructions
 - You should create one R script called run_analysis.R that does the following.
 - Merges the training and the test sets to create one data set.

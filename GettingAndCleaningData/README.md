@@ -4,7 +4,10 @@
 The purpose of this assignment is to demonstrate how to get and clean data using R.  The dataset used was from this source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 Which contains data from UCI collected from accelereometers from the Samsung Galaxy S smartphones.  Full descriptions of the datasets are located here:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
-
+### Run instructions
+- Ensure that you are connected to the internet
+- Make sure that you don't have the directory UCI HAR Dataset in your working directory
+- if you don't have libraries for "data.frame" and "sqldf" please get them now
 ### Assignment Instructions
 - You should create one R script called run_analysis.R that does the following.
 - Merges the training and the test sets to create one data set.
